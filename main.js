@@ -39,7 +39,7 @@ function createWindow() {
   const wv = new WebContentsView();
   v.addChildView(wv);
   wv.webContents.loadURL('https://learn.microsoft.com/en-us/visualstudio/ide/quickstart-ide-orientation?view=vs-2022');
-  wv.setBounds({ x: 0, y: 30 + 400, width: 1200, height: 400 });
+  wv.setBounds({ x: 0, y: 30 + 400, width: WINDOW_WIDTH, height: 400 });
 
   // show the mainWindow
   mainView.show();
